@@ -28,6 +28,12 @@ void cargarDatos(int leg[], char nom[][15], int est[], int tam)
         {
             printf("Ingrese un legajo: ");
             scanf("%d", &leg[i]);
+            while(leg[i]<999 || leg[i]>10000)
+            {
+                printf("Ingrese un legajo valido: ");
+                scanf("%d", &leg[i]);
+            }
+
             printf("Ingrese nombre: ");
             fflush(stdin);
             gets(nom[i]);
@@ -50,9 +56,16 @@ void bajaDatos(int leg[], char nom[][15], int est[],  int tam)
     int legajo, i;
     char respuesta;
     int flagEncontro=0;
+
     printf("Ingrese legajo: ");
     scanf("%d", &legajo);
-    for(i=0; i<tam;i++)
+    while(leg[i]<999 || leg[i]>10000)
+    {
+        printf("Ingrese un legajo valido: ");
+        scanf("%d", &leg[i]);
+    }
+
+    for(i=0; i<tam; i++)
     {
         if(est[i]== 1 && legajo == leg[i])
         {
@@ -87,7 +100,12 @@ void modificarDatos(int leg[], char nom[][15], int est[],  int tam)
     int flagEncontro=0;
     printf("Ingrese legajo: ");
     scanf("%d", &legajo);
-    for(i=0; i<tam;i++)
+    while(leg[i]<999 || leg[i]>10000)
+    {
+        printf("Ingrese un legajo valido: ");
+        scanf("%d", &leg[i]);
+    }
+    for(i=0; i<tam; i++)
     {
         if(est[i]== 1 && legajo == leg[i])
         {

@@ -45,6 +45,12 @@ int main()
             case 5:
                 ordenarPorNombre(legajos, nombres , estados, A);
                 break;
+            case 6:
+                seguir='n';
+                break;
+            default:
+                printf("Ingrese una opcion valida!");
+                break;
 
         }
 
