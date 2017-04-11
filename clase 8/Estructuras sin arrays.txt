@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*
+cliente
+
+*codigo
+*nombre
+*telefono
+*problema
+*estado*/
+
+
+typedef struct
+{
+    int codigo;
+    char nombre[25];
+    char telefono[20];
+    char problema[500];
+    int estado;
+} eCliente;
+
+eCliente cargarCliente(int, char[], char[], char[]);
+void mostrarCliente(eCliente);
+
+
+int main()
+{
+    eCliente miCliente, otroCliente;
+    int codigo;
+    char nombre[50], problema[500], telefono[20];
+
+    miCliente = cargarCliente(8,"juan","47569854", "exploto la bateria");
+
+    mostrarCliente(miCliente);
+
+    otroCliente = miCliente;
+
+
+    mostrarCliente(otroCliente);
+
+    eCliente clientito;
+
+
+    printf("Ingrese codigo del cliente: ");
+    scanf("%d", &codigo);
+    printf("Ingrese nombre del cliente: ");
+    fflush(stdin);
+    gets(nombre);
+
+    printf("Ingrese telefono del cliente: ");
+    fflush(stdin);
+    gets(telefono);
+    printf("Ingrese problema del cliente: ");
+    fflush(stdin);
+    gets(problema);
+    clientito = cargarCliente(codigo, nombre, telefono, problema);
+    mostrarCliente(clientito);
+
+    return 0;
+}
+eCliente cargarCliente(int codigo, char nombre[], char telefono[], char problema[])
+{
+    eCliente miCliente;
+    miCliente.codigo=codigo;
+    strcpy(miCliente.nombre, nombre);
+    strcpy(miCliente.telefono, telefono);
+    strcpy(miCliente.problema, problema);
+    miCliente.estado=1;
+
+    return miCliente;
+
+}
+void mostrarCliente(eCliente cliente)
+{
+    printf("%d--%s--%s--%s--%d\n", cliente.codigo,cliente.nombre, cliente.telefono, cliente.problema, cliente.estado);
+}
