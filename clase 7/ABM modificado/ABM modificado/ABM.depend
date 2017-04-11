@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1491837241 source:c:\users\alumno\desktop\abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1491835599 source:c:\users\alumno\desktop\abm\biblio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Biblio.h"
+
+1491835599 c:\users\alumno\desktop\abm\biblio.h
+
+1491852437 source:c:\users\mica_\onedrive\documents\programacion y laboratorio i\clase 7\abm modificado\biblio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Biblio.h"
+
+1491852437 c:\users\mica_\onedrive\documents\programacion y laboratorio i\clase 7\abm modificado\biblio.h
+
+1491852471 source:c:\users\mica_\onedrive\documents\programacion y laboratorio i\clase 7\abm modificado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"Biblio.h"
+
