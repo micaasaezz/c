@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1493499412 source:c:\users\mica_\desktop\practica parcial\lib.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1493499412 c:\users\mica_\desktop\practica parcial\lib.h
+
