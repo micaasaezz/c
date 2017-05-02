@@ -1,0 +1,69 @@
+
+//series y clientes 
+hardcodea ecliente y eserie
+muestra series y muestra clientes
+https://github.com/micaasaezz/sabado/blob/master/sabado/funciones.h
+
+
+//tp 2
+busca espacio libre
+busca por dni - carga persona - da de baja una persona - lista por nombre
+https://github.com/micaasaezz/tp_laboratorio_1/blob/master/TP2/TP_2_Cascara/funciones.h
+
+
+//
+suma, resta, multiplica, divide 2 num
+https://github.com/micaasaezz/c/blob/master/Nueva%20carpeta/funciones/funciones.c
+
+
+//series y clientes con eseriecliente
+hardcodea clientes y series
+muestra series, series con clientes, clientes
+clientes que ven una serie
+https://github.com/micaasaezz/c/blob/master/clase%2024%20abril/funciones.c
+
+
+//
+iniciarFlags - buscarLugar - cargarUsuario - modificarDatos - bajaUsuario
+https://github.com/micaasaezz/sabado/blob/master/ejer%20practica%20parcial/lib.h
+
+
+//
+hardcodea datos de 5 abonados - inicializa los estados se una estructura ereclamos
+https://github.com/micaasaezz/c/blob/master/practica%20parcial/lib.c
+
+
+//ordenamiento
+
+for(i=0; i<tam-1; i++)
+{
+  if(struct[i].estado == 0)
+  {
+    continue;
+  }
+  
+  for(j=i+1; j<tam; j++)
+  {
+    if(struct[j].estado == 0)
+    {
+      continue;
+    }
+    
+    if(strcmp(struct[j]. , struct[i]. ) > 0)
+    {
+        auxStruct = struct[i];
+        struct[i] = struct[j];
+        struct[j] = auxStruct;
+    }
+    else if(strcmp(struct[i]. ,struct[j]. ) == 0) //si son iguales, los comparo por otro criterio
+    {
+        if(strcmp(struct[j]. ,struct[i]. ) < 0)
+        {
+            auxStruct = struct[i];
+            struct[i] = struct[j];
+            struct[j] = auxStruct;
+        }
+    }
+  }
+  
+}
