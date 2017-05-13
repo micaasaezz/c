@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1493734711 source:c:\users\alumno\desktop\saez.micaela\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estacionamiento.h"
+
+1493734667 c:\users\alumno\desktop\saez.micaela\estacionamiento.h
+
+1493733892 source:c:\users\alumno\desktop\saez.micaela\main.c
+	<stdio.h>
+	<stdlib.h>
+	"estacionamiento.h"
+
+1494636799 source:c:\users\mica_\desktop\saez.micaela\saez.micaela\main.c
+	<stdio.h>
+	<stdlib.h>
+	"estacionamiento.h"
+
+1494636032 c:\users\mica_\desktop\saez.micaela\saez.micaela\estacionamiento.h
+
+1494636695 source:c:\users\mica_\desktop\saez.micaela\saez.micaela\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estacionamiento.h"
+
