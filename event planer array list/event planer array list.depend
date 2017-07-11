@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1499039905 source:c:\users\mica_\onedrive\documents\programacion y laboratorio i\event planer array list\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1499045974 c:\users\mica_\onedrive\documents\programacion y laboratorio i\event planer array list\arraylist.h
+	<stdio.h>
+	<stdlib.h>
+
+1499286115 source:c:\users\mica_\onedrive\documents\programacion y laboratorio i\event planer array list\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"funciones.h"
+
+1499733883 c:\users\mica_\onedrive\documents\programacion y laboratorio i\event planer array list\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	"arraylist.h"
+
+1499792812 source:c:\users\mica_\onedrive\documents\programacion y laboratorio i\event planer array list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arraylist.h"
+	"funciones.h"
+
