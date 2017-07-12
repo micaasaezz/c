@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1499860695 source:d:\rec 2parc\saez micaela\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1499860695 d:\rec 2parc\saez micaela\arraylist.h
+	<stdio.h>
+	<stdlib.h>
+
